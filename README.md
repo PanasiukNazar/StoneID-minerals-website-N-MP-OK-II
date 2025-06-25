@@ -1,1 +1,1 @@
-# StoneID-technology-gadgets-website-N-MP-OK-II
+[DEMO](https://panasiuknazar.github.io/StoneID-minerals-website-N-MP-OK-II/)
