@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>TechStream</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="технологии, гаджеты, обзоры техники, советы по гаджетам, новости технологий, последние новинки, советы по выбору техники"
+            name="keywords"
+        />
+        <meta
+            content="Узнайте последние новости из мира технологий и гаджетов, читайте обзоры современных устройств, получайте полезные советы и рекомендации по выбору техники. Всё о технологиях и гаджетах для вас."
+            name="description"
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-secondary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex">
+                        <a href="#" class="text-muted me-4"
+                            ><i class="fas fa-envelope text-secondary me-2"></i
+                            >tech_stream@gmail.com</a
+                        >
+                        <a href="#" class="text-muted me-0"
+                            ><i class="fas fa-phone-alt text-secondary me-2"></i
+                            >+77056257474</a
+                        >
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div
+                        class="d-inline-flex align-items-center"
+                        style="height: 45px"
+                    >
+                        <a href="terms-of-use.html" class="text-muted me-2">
+                            Условия</a
+                        ><small> / </small>
+                        <a href="privacy-policy.html" class="text-muted mx-2">
+                            Политика конфиденциальности</a
+                        ><small> / </small>
+                        <a href="contact.html" class="text-muted ms-2">
+                            Контакты</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar p-0">
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+            >
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-5 text-secondary m-0">TechStream</h1>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"
+                            >Главная</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">О нас</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Услуги</a
+                        >
+                        <a
+                            href="testimonial.html"
+                            class="nav-item nav-link active"
+                            >Отзывы</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Контакты</a
+                        >
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary border-secondary rounded-pill py-2 px-4 px-lg-3 mb-3 mb-md-3 mb-lg-0"
+                        >Связаться с нами</a
+                    >
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px">
+                <h3
+                    class="text-white display-3 mb-4 wow fadeInDown"
+                    data-wow-delay="0.1s"
+                >
+                    Отзывы наших клиентов
+                </h3>
+                <ol
+                    class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown"
+                    data-wow-delay="0.3s"
+                >
+                    <li class="breadcrumb-item">
+                        <a href="index.html" class="text-white">Главная</a>
+                    </li>
+                    <li class="breadcrumb-item active text-secondary">
+                        Отзывы
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial overflow-hidden py-5">
+            <div class="container py-5">
+                <div
+                    class="section-title text-center mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div class="sub-style">
+                        <h5 class="sub-title text-primary px-3">
+                            ОТЗЫВЫ О НАШИХ УСЛУГАХ
+                        </h5>
+                    </div>
+                    <h1 class="display-5 mb-4">
+                        Что говорят наши довольные пользователи
+                    </h1>
+                    <p class="mb-0">
+                        Наши пользователи ценят качество обзоров, советы и
+                        новости о технологиях и гаджетах, которые мы
+                        предоставляем. Они отмечают, что наши материалы помогают
+                        принимать правильные решения при выборе устройств и быть
+                        в курсе последних трендов. Ознакомьтесь с отзывами тех,
+                        кто уже воспользовался нашей экспертизой и остался
+                        доволен.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel testimonial-carousel wow zoomInDown"
+                    data-wow-delay="0.2s"
+                >
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Обзоры этой команды всегда подробные и честные.
+                                Благодаря их советам я выбрал смартфон, который
+                                полностью оправдал мои ожидания. Особенно ценю
+                                глубокий анализ характеристик и сравнение
+                                моделей. Рекомендую всем, кто хочет разобраться
+                                в технологиях без лишней рекламы."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-1.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Алексей Смирнов</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Очень полезные советы по выбору и эксплуатации
+                                гаджетов. Информация всегда актуальная и
+                                понятная. Благодаря рекомендациям я научился
+                                лучше использовать свои устройства и выбирать
+                                аксессуары, которые действительно нужны."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-2.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Ольга Иванова</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content p-4 mb-5">
+                            <p class="fs-5 mb-0">
+                                "Новости и обзоры очень информативные и всегда в
+                                курсе последних тенденций. Благодаря этому
+                                ресурсу я узнаю о новых технологиях первым и
+                                могу своевременно принять решение о покупке."
+                            </p>
+                            <div class="d-flex justify-content-end">
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                                <i class="fas fa-star text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div
+                                class="rounded-circle me-4"
+                                style="width: 100px; height: 100px"
+                            >
+                                <img
+                                    class="img-fluid rounded-circle"
+                                    src="img/testimonial-3.jpg"
+                                    alt="img"
+                                />
+                            </div>
+                            <div class="my-auto">
+                                <h5>Игорь Петров</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">
+                                Контактная информация
+                            </h4>
+                            <a href=""
+                                ><i class="fa fa-map-marker-alt me-2"></i>
+                                Әл-Фараби даңғылы 21, Алматы 050000,
+                                Казахстан</a
+                            >
+                            <a href=""
+                                ><i class="fas fa-envelope me-2"></i>
+                                tech_stream@gmail.com
+                            </a>
+                            <a href=""
+                                ><i class="fas fa-phone me-2"></i>
+                                +77056257474</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Часы работы</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">
+                                    Понедельник - Пятница:
+                                </h6>
+                                <p class="text-white mb-0">09:00 - 19:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Суббота:</h6>
+                                <p class="text-white mb-0">10:00 - 17:00</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Воскресенье:</h6>
+                                <p class="text-white mb-0">Выходной день</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-secondary mb-4">Навигация</h4>
+                            <a href="index.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Главная</a
+                            >
+                            <a href="about.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i> О
+                                нас</a
+                            >
+                            <a href="contact.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Контакты</a
+                            >
+                            <a href="terms-of-use.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i> Условия
+                                использования</a
+                            >
+                            <a href="privacy-policy.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Политика конфиденциальности</a
+                            >
+                            <a href="cookie-policy.html" class=""
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Политика cookie</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-secondary mb-4">
+                                Подписка на новости
+                            </h4>
+                            <p class="text-white mb-3">
+                                Будьте в курсе последних обзоров, советов и
+                                новостей из мира технологий с нашей рассылкой.
+                            </p>
+                            <form action="thanks.html" method="get">
+                                <div
+                                    class="position-relative mx-auto rounded-pill"
+                                >
+                                    <input
+                                        class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
+                                        type="text"
+                                        placeholder="Ваш email"
+                                        id="email"
+                                        required
+                                    />
+                                    <button
+                                        type="button"
+                                        id="submit"
+                                        class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                                    >
+                                        Подписаться
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для обеспечения более
+                    удобного и персонализированного просмотра.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
